@@ -1,4 +1,5 @@
 # Ola Mundo
- Meu primeiro do curso de Git e Github. 
- Esse repositório foi criado durante uma aula ao vivo. =]
+Meu primeiro do curso de Git e Github. 
+Esse repositório foi criado durante uma aula ao vivo. =]
  
+Essa alteração realizei via web, uau.
