@@ -1,0 +1,59 @@
+body {
+        font-family: 'Montserrat';
+        font-size: 12px;
+        background-color: beige
+    }
+    header {
+        display: flex;
+        justify-content: space-between; /* espaço entro logo e navegação */
+        align-items: center; /* centraliza o conteúdo verticalmente */
+        background-color: hsl(16, 89%, 75%);
+        color: antiquewhite;
+        height: 70px;
+        padding: 30px;
+        box-shadow: 0 2px; rgba(0, 0, 0, 0.1);
+        }
+
+
+nav ul {
+        list-style: none; /* remove as bolinhas da lista */
+        display: flex; /* exibe os itens da lista */
+        justify-content: space-around;
+        margin: 50%;
+        padding: 50%;
+        width: 100%;
+    }
+
+nav ul li {
+    margin:  0 20px; /* espaçamento entre os items do menu */
+}
+
+nav ul li a {
+
+    align-items: center;
+    text-decoration: none; /* remove o sublinhado dos links */
+    color: whitesmoke;  /* cor dos links */
+    font-weight: bold;  /* deixa o texto em negrito */
+}
+
+nav ul li a:hover {
+    color: #693228; /* muda a cor do link ao passar o mouse */
+}
+
+h1 {
+        color: #88481d;
+    }
+
+h2 { 
+        color: #88481d;
+    }
+
+    p {
+        color: rgb(75, 51, 27);
+    }
+
+    footer {
+    color: rgb(71, 51, 27);
+    text-align: center;
+    text-size-adjust: 10px;
+    }
