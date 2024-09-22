@@ -1,48 +1,53 @@
 * {
     margin: 0;
-    padding: 10;
+    padding: 0;
     box-sizing: border-box;
 }
 
 /* Geral */
-
 body {
-    font-family: "Chivo";
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #0B1009;
+    background-color: #00000;
+    font-family: "Zilla slab";
+    line-height: 2.0rem;
 }
 
 /* Header */
-
 header {
-    background-color: #0B1009;
-    color: #FFD4F8;
     text-align: center;
     padding: 1rem 0;
-
 }
 
-headline {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
+.subheader {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    background-color: #30332E;
+    padding: 1rem;
 }
 
-.descrição {
-    font-size: 1.2rem;
+.mood {
+    font-weight: bold;
 }
 
-/* container */
+.social a {
+    color: #bebebe;
+    margin-left: 15px;
+    text-decoration: none;
+}
 
+.social a:hover {
+    text-decoration: underline;
+}
+
+/* Container */
 .container {
     display: flex;
     max-width: 1200px;
-    margin: 20px; auto;
-    padding: 20px; auto;
+    margin: 20px auto;
+    padding: 20px;
 }
 
-/* sidebar */
+/* Sidebar */
 .sidebar {
     width: 25%;
     background-color: #0B1009;
@@ -52,35 +57,33 @@ headline {
     border-radius: 16px;
 }
 
-.sidebar h2 {
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
-}
-
-.sidebar ul {
-    list-style-type: none;
-}
-
-.sidebar ul li {
-    margin-bottom: 10px;
-}
-
-.sidebar ul li a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.sidebar ul li a:hover { color: #FFD4F8;    
-}
-
-/* conteúdo */
-
+/* Conteúdo principal */
 .content h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
 
-.content p {
-    font-size: 1.1rem;
-    margin-bottom: 1rem;
+.slider img {
+    width: 100%;
+    border-radius: 10px;
+    display: none;
+}
+
+.slider img:first-child {
+    display: block;
+}
+
+.read-more {
+    background-color: #FFD4F8;
+    color: #0B1009;
+    padding: 10px 15px;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    color: #FFD4F8;
 }

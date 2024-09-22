@@ -6,35 +6,73 @@
     <title>✦ Não é um blog.com</title>
     <link rel="stylesheet" href="/olamundosite/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="icon" type="image/png" sizes="16x16" href="/olamundosite/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" type="image/png" sizes="16x16" href="/olamundosite/favicon.ico">
 </head>
 <body>
     <header>
-    <h1 class="titulo">✦ not a blog ✦</h1>Isso aqui não é um blog, mas também não é um diário... Vamos chamar de pequeno acervo de memórias? :) 
-    </p>
+        <h1 class="titulo">Isso não é blog! </h1>
+        <p>Mas também não é um diário... Vamos chamar de pequeno acervo de memórias? :)</p>
     </header>
 
+    <div class="subheader">
+        <span class="mood">mood:</span>
+        <span class="social">
+            <a href="https://instagram.com">Instagram</a> | 
+            <a href="https://spotify.com">Spotify</a>
+        </span>
+    </div>
+
     <div class="container">
-        <!---Sidebar-->
+        <!-- Sidebar -->
         <aside class="sidebar">
             <h2 class="categorias">
-                <h2>Categorias</h2>
-             <ul>
+                <img src="/olamundosite/1.png" width="150px" alt="Icon da sidebar - DPR LIVE" style="border-radius: 15px;">
+                <p class="sidetext"> I'm mister insanity :)</p>
+            </h2>
+            <h2>Categorias</h2>
+            <ul>
                 <li><a href="#">link 01</a></li>
                 <li><a href="#2">link 02</a></li>
                 <li><a href="#3">link 03</a></li>
-             </ul>   
+            </ul> 
+
+            <!-- Caixa de pesquisa -->
+            <h2>Pesquisar</h2>
+            <input type="text" placeholder="Pesquisar...">
+
+            <!-- Arquivo -->
+            <h2>Arquivo</h2>
+            <ul>
+                <li><a href="#">Janeiro 2024</a></li>
+                <li><a href="#">Dezembro 2023</a></li>
+                <li><a href="#">Novembro 2023</a></li>
+            </ul>
         </aside>
-        <!-- Conteúdo principal-->
-         <main class="content">
+
+        <!-- Conteúdo principal -->
+        <main class="content">
             <article>
-                <h2>Titulo do post</h2>
-                <p>{conteudo do post} Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, deserunt. Excepturi, quos, dolore, odit distinctio quasi expedita fugit quo harum explicabo cumque optio tempora deleniti quia repudiandae laborum exercitationem similique?</p>
+                <h2 class="article1">Titulo do post</h2>
+                <div class="slider">
+                    <img src="/olamundosite/img1.jpg" alt="Imagem 1">
+                    <img src="/olamundosite/img2.jpg" alt="Imagem 2">
+                </div>
+                <p>{conteudo do post} Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                <button class="read-more">Leia mais</button>
             </article>
-         </main>
+            <article class="article2">
+                <h2>Aqui vai de novo...</h2>
+                <p>{conteúdo} Lorem ipsum dolor sit amet...</p>
+                <button class="read-more">Leia mais</button>
+            </article>
+        </main>
     </div>
+
+    <footer>
+        <p>Seren, 2024</p>
+    </footer>
 </body>
 </html>
