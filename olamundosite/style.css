@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+/* Geral */
+
+body {
+    font-family: "Chivo";
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #0B1009;
+}
+
+/* Header */
+
+header {
+    background-color: #0B1009;
+    color: #FFD4F8;
+    text-align: center;
+    padding: 1rem 0;
+
+}
+
+headline {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.descrição {
+    font-size: 1.2rem;
+}
+
+/* container */
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px; auto;
+    padding: 20px; auto;
+}
+
+/* sidebar */
+.sidebar {
+    width: 25%;
+    background-color: #0B1009;
+    color: #FFD4F8;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 16px;
+}
+
+.sidebar h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sidebar ul li a:hover { color: #FFD4F8;    
+}
+
+/* conteúdo */
+
+.content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.content p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
